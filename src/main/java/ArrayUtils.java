@@ -26,7 +26,7 @@ public class ArrayUtils {
      * @throws NullPointerException if x is null
      */
     // test: x = [-3, -2, 0, 1, 4]; Expected = 3
-    /*public static int oddOrPos(int[] x) {
+    public static int oddOrPos(int[] x) {
         int count = 0;
         for (int i = 0; i < x.length; i++) {
             if (x[i] % 2 != 0 || x[i] > 0) {
@@ -34,6 +34,6 @@ public class ArrayUtils {
             }
         }
         return count;
-    }*/
+    }
     // leave a comment here!
 }
