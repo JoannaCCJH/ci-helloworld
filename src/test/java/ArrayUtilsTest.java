@@ -63,11 +63,15 @@ public class ArrayUtilsTest {
     public void testCountOfTargetAbsent() {
         assertEquals(0, ArrayUtils.countOf(new int[]{1, 3, 5}, 2));
     }
-    
+
     @Test
     public void testOddOrPositiveBothPositivesAndNegatives() {
         assertEquals(3, ArrayUtils.oddOrPos(new int[]{-3, -2, 0, 1, 4}));
     }
 
+    @Test
+    public void testFindLastExistsAtEnd() {
+        assertEquals(2, ArrayUtils.findLast(new int[]{1, 2, 3}, 3));
+    }
 
 }
