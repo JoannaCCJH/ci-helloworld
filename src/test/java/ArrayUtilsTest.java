@@ -74,4 +74,9 @@ public class ArrayUtilsTest {
         assertEquals(2, ArrayUtils.findLast(new int[]{1, 2, 3}, 3));
     }
 
+    @Test
+    public void testArrayUtilsConstructor() {
+        assertNotNull(new ArrayUtils());
+    }
+
 }
